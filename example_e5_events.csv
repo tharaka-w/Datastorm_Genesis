@@ -1,0 +1,3 @@
+node_id,event_time,event_type
+10,2022-09-13T08:00:00Z,node_ambient_temp__HIGH
+10,2022-09-13T08:15:00Z,pcie_power__LOW

@@ -1,0 +1,46 @@
+{
+  "mu_per_hour": 0.001605959817834819,
+  "alpha_per_hour": {
+    "NAGIOS_FAILURE": 0.10093050495720403,
+    "gpu_mem_temp_max__LOW": 1e-12,
+    "largest_job_nodes__HIGH": 1e-12,
+    "mem_cached__LOW": 0.0015603247739593136,
+    "node_ambient_temp__HIGH": 0.004139403164570227,
+    "pcie_power__LOW": 0.0019717320153849315
+  },
+  "beta_per_hour": 0.17328679513998632,
+  "half_life_minutes": 240.0,
+  "include_failure_self_excitation": true,
+  "source_types": [
+    "NAGIOS_FAILURE",
+    "gpu_mem_temp_max__LOW",
+    "largest_job_nodes__HIGH",
+    "mem_cached__LOW",
+    "node_ambient_temp__HIGH",
+    "pcie_power__LOW"
+  ],
+  "train_end": "2022-08-08 22:15:00+00:00",
+  "training_terminal_events": 14816,
+  "training_events_total": 164805,
+  "observation_node_hours": 3052022.5,
+  "optimizer_success": true,
+  "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "negative_log_likelihood": 72305.9215251377,
+  "step": "7_tuned",
+  "selection_rule": "highest validation Hawkes average precision; test set never used for tuning",
+  "z_threshold": 1.5,
+  "validation_ap_classifier_reference": 0.003436977722137628,
+  "validation_roc_auc_classifier_reference": 0.5907338954119421,
+  "validation_ap_hawkes": 0.054256523417728436,
+  "direction_by_variable": {
+    "gpu_mem_copy_util": "LOW",
+    "gpu_mem_temp_max": "LOW",
+    "largest_job_nodes": "HIGH",
+    "mem_cached": "LOW",
+    "node_ambient_temp": "HIGH",
+    "pcie_power": "LOW"
+  },
+  "horizon_hours": 2.0,
+  "exact_step5_test_rows": 2800321,
+  "exact_step5_test_positives": 4865
+}

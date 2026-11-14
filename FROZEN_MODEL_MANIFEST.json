@@ -1,0 +1,32 @@
+{
+  "purpose": "portable inference only; frozen NODE-LEVEL V2.1",
+  "python": "3.11.15",
+  "files": {
+    "epicpp_deployment_bundle.joblib": {
+      "original_path": "/gpfs/u/scratch/FSTI/FSTIwjth/m100_leakagefree_global90_10_v2_1_1_20261031/final/epicpp_deployment_bundle.joblib",
+      "size_bytes": 7037742,
+      "sha256": "8dddc8d05dae29c69344e1b0a985838ca0d889078cc599731ecb376b17380a99"
+    },
+    "hawkes_selected_model.json": {
+      "original_path": "/gpfs/u/scratch/FSTI/FSTIwjth/m100_global_deployable_equalweight_v1_20261028/E5_AprAug_to_Sep/step7/hawkes_selected_model.json",
+      "size_bytes": 1562,
+      "sha256": "c6a5a1037bf1596276f2125ec32e97e823dbb9cb6e67cb5b87c931a4bd225001"
+    },
+    "selected_features.csv": {
+      "original_path": "/gpfs/u/scratch/FSTI/FSTIwjth/m100_april_39of39/step2/selected_features.csv",
+      "size_bytes": 5327,
+      "sha256": "092f193cf8e9873ff5d8eb6d1d2b62a971cc112c21ca9307739fb2500bb7df6e"
+    },
+    "edge_table_static_robust_preview.csv": {
+      "original_path": "/gpfs/u/scratch/FSTI/FSTIwjth/m100_april_39of39/step1/edge_table_static_robust_preview.csv",
+      "size_bytes": 562444,
+      "sha256": "e93abf16d72239d2d27e577472330021eeadde45126cecaede711c8d68938e3b"
+    }
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.5.3"
+  }
+}
